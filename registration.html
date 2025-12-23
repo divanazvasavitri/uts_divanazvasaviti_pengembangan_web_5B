@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Registration - PUSAKA</title>
+  <link rel="stylesheet" href="registration.css">
+  <link rel="icon" href="images/Logo PUSAKA.jpeg">
+  <script defer src="pusaka.js"></script>
+</head>
+<body>
+  <header class="site-header"> 
+    <div class="container header-inner"><div class="brand"><img src="images/Logo PUSAKA.jpeg" class="logo"><div><h1>PUSAKA</h1></div></div>
+      <nav class="main-nav"><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="registration.html">Registration</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+    </div>
+  </header>
+
+  <main class="container registration-page">
+    <h2>Formulir Pendaftaran Kegiatan</h2>
+    <form id="registration-form" class="form card">
+      <label>Nama Lengkap <input type="text" name="name" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Institusi <input type="text" name="institution"></label>
+      <label>Jenis Kegiatan
+        <select name="program">
+          <option>Pelatihan Penataan Arsip</option>
+          <option>Workshop Digitalisasi</option>
+          <option>Diskusi & Seminar</option>
+        </select>
+      </label>
+      <label>Pesan / Catatan <textarea name="message"></textarea></label>
+      <div class="form-actions">
+        <button type="submit" class="btn">Kirim Pendaftaran</button>
+        <button type="reset" class="btn btn-outline">Reset</button>
+      </div>
+      <div id="form-response" class="form-response" role="status" aria-live="polite"></div>
+    </form>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div class="footer-col"><h4>PUSAKA</h4></div></div><div class="footer-bottom"><p>© 2025 PUSAKA</p></div></footer>
+</body>
+</html>
+

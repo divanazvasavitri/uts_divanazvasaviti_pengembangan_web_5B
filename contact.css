@@ -1,0 +1,105 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", Arial, sans-serif;
+  background: #f7f5f2;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.site-header {
+  background: linear-gradient(90deg, #4b2e05, #c2932d);
+  color: #fff;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 6px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.main-nav a:hover,
+.main-nav a.active {
+  border-bottom: 2px solid #fff;
+}
+
+
+.contact-page {
+  padding: 60px 0 90px;
+}
+
+.contact-page h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 34px;
+  color: #4b2e05;
+  letter-spacing: 1px;
+}
+
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 35px;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #444
+} 
